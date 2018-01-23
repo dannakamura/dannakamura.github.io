@@ -1,7 +1,10 @@
 .contents {
     font-weight: 700;
-    text-align: center;
     font-family: "Sawarabi Gothic";
+}
+
+.contents img{
+    text-align: center;
 }
 
 .contents h1 {
@@ -17,10 +20,6 @@
 .contents p {
     font-size: 0.8em;
     line-height: 2em;
-}
-
-.contents span {
-    text-align: left;
     display: inline-block;
     padding-bottom: 1vh;
 }
@@ -54,8 +53,8 @@
         padding-bottom: 2vh;
     }
     .contents p {
-        font-size: 1em;
-        line-height: 2em;
+        font-size: 1.2em;
+        line-height: 2.4em;
     }
     .bio {
         padding-top: 0;
