@@ -167,12 +167,6 @@ p {
     width: 50%;
 }
 
-.pure-drawer .table-ul {
-    position: fixed;
-    left: 10vw;
-    bottom: 5vh;
-}
-
 .table-ul li {
     display: table-cell;
     vertical-align: middle;
@@ -195,6 +189,12 @@ p {
 
 .pure-drawer li {
     display: table;
+    margin: 0 auto;
+}
+
+.pure-drawer .table-ul {
+    position: fixed;
+    bottom: 5vh;
 }
 
 @media screen and (max-width: 1024px) {
