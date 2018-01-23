@@ -30,7 +30,8 @@
     max-height: 80vh;
 }
 
-.grid-item {}
+.grid-item img {
+}
 
 .rightmid {
     padding-right: 0px;
