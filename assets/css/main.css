@@ -110,8 +110,8 @@ p {
     height: 100vh;
 }
 
+
 .drawerlinks li {
-    text-align: center;
     padding-top: 10vh;
     padding-bottom: 0vh;
 }
@@ -178,6 +178,11 @@ p {
 .pure-drawer li {
     display: table;
 }
+.branding{
+    position: fixed;
+    left: 10vw;
+    bottom: 5vh;
+}
 
 @media screen and (max-width: 1024px) {
     .menucap {
@@ -214,7 +219,7 @@ p {
     .sns {
         width: 25%;
     }
-    
+
     .infos {
         display: none;
     }
