@@ -3,7 +3,7 @@
     font-family: "Sawarabi Gothic";
 }
 
-.contents img{
+.dan{
     text-align: center;
 }
 
@@ -27,8 +27,6 @@
 
 @media screen and (max-width: 1024px) {
     .rightmid {
-        padding-left: 10vw;
-        padding-right: 10vw;
     }
     .main {
         background-image: url("../img/message.jpg");
