@@ -20,13 +20,14 @@
 .contents p {
     font-size: 0.8em;
     line-height: 2em;
-    display: inline-block;
     padding-bottom: 1vh;
 }
 
 
 @media screen and (max-width: 1024px) {
-    .rightmid {
+    .rightmid .column {
+        padding-top: 0;
+        padding-bottom:0;
     }
     .main {
         background-image: url("../img/message.jpg");
@@ -52,7 +53,7 @@
     }
     .contents p {
         font-size: 1.2em;
-        line-height: 2em;
+        padding-bottom: 1.5vh;
     }
     .bio {
         padding-top: 0;
