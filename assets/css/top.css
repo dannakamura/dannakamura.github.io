@@ -3,9 +3,50 @@
         background-size: cover;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         .main {
-            background-image: url("../img/top.jpg");
-            background-position: 40%;
-        }
+        background-image: url("../img/top.jpg");
+        background-position: 40%;
     }
+    .rightmid {
+        padding-left:10vw;
+        padding-right: 10vw;
+    }
+    .contents h1 {
+        font-size: 1.5em;
+        padding-bottom: 4vh;
+        padding-top: 0;
+    }
+
+    .contents h2 {
+        font-size: 1em;
+        padding-bottom: 2vh;
+    }
+    .contents p {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .rightmid {
+        padding-left:2.5vw;
+        padding-right: 2.5vw;
+    }
+}
+    .contents h1 {
+        font-size: 1.5em;
+        padding-bottom: 4vh;
+        padding-top: 0;
+    }
+
+    .contents h2 {
+        font-size: 1em;
+        padding-bottom: 2vh;
+    }
+    .contents p {
+        font-size: 0.6em;
+        line-height: 2em;
+    }
+}
