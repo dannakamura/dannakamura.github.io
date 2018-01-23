@@ -214,6 +214,10 @@ p {
     .sns {
         width: 25%;
     }
+    
+    .infos {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 460px) {
