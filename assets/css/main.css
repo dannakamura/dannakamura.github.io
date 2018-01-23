@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'next_artbold';
+    src: url('../fonts/next_art_bold-webfont.eot');
+    src: url('../fonts/next_art_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/next_art_bold-webfont.woff2') format('woff2'),
+    url('../fonts/next_art_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artlight';
+    src: url('../fonts/next_art_light-webfont.eot');
+    src: url('../fonts/next_art_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/next_art_light-webfont.woff2') format('woff2'),
+    url('../fonts/next_art_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artregular';
+    src: url('../fonts/next_art_regular-webfont.eot');
+    src: url('../fonts/next_art_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/next_art_regular-webfont.woff2') format('woff2'),
+    url('../fonts/next_art_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artsemibold';
+    src: url('../fonts/next_art_semibold-webfont.eot');
+    src: url('../fonts/next_art_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/next_art_semibold-webfont.woff2') format('woff2'),
+    url('../fonts/next_art_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'next_artthin';
+    src: url('../fonts/next_art_thin-webfont.eot');
+    src: url('../fonts/next_art_thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/next_art_thin-webfont.woff2') format('woff2'),
+    url('../fonts/next_art_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'next_artsemibold';
+    height: 100vh;
+}
+
+div {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    font-size: 16px;
+}
+
+p {
+    font-size: 8px;
+}
+
+.blackiconcolor {
+    color: #000000;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    padding-top: 10vh;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.menu {
+    width: 80%;
+    height: 100vh;
+}
+
+.drawerlinks li {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 0vh;
+}
+
+.drawerlinks a {
+    font-family: 'next_artbold';
+    font-size: 18px;
+    color: #000000;
+}
+
+
+.links li {
+    padding-left: 2em;
+    padding-bottom: 1em;
+    color: #000000;
+}
+
+.links a {
+    color: #000000;
+}
+
+.infos {
+    position: fixed;
+    bottom: 3vh;
+}
+
+.copy {
+    position: fixed;
+    bottom: 2.5vh;
+}
+
+.pure-toggle-label {
+    display: none;
+}
+
+
+.table-ul {
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 50%;
+}
+
+.table-ul li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.table-ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.menucap {
+    display: none;
+}
+
+.pure-drawer ul {
+    display: table;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.pure-drawer li {
+    display: table;
+}
+
+@media screen and (max-width: 1024px) {
+    .menucap {
+        display: block;
+        position: fixed;
+        width: 60px;
+        bottom: 1vh;
+        right: 10vw;
+        z-index: 800;
+        text-align: center;
+    }
+    .logo {
+        padding-top: 5vh;
+        padding-left: 10vw;
+    }
+    .leftmid {
+        display: none
+    }
+    .infos {
+        padding-left: 5vw;
+    }
+    .buf {
+        display: none
+    }
+    .copy {
+        padding-left: 5vw;
+    }
+    .columns {
+        margin: 0;
+    }
+    .pure-toggle-label {
+        display: block;
+    }
+    .sns {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .sns {
+        width: 50%;
+    }
+}

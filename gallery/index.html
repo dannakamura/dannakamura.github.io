@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="../assets/css/pure-drawer.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!-- 各ページごとのCSS -->
+    <link rel="stylesheet" href="../assets/css/gallery.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="../assets/js/masonry.js"></script>
+</head>
+
+<body>
+    <div class="pure-container" data-effect="pure-effect-reverseSlide">
+        <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
+        <label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
+            <span class="pure-toggle-icon"></span>
+        </label>
+        <div class="pure-drawer" data-position="right">
+            <div class="columns">
+                <ul class="drawerlinks">
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../message/index.html">MESSAGE</a></li>
+                    <li><a href="../biography/index.html">BIOGRAPHY</a></li>
+                    <li><a href="../gallery/index.html">GALLERY</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <span class="menucap">close</span>
+        </div>
+        <div class="pure-pusher-container">
+            <div class="pure-pusher">
+                <div class="main">
+                    <span class="menucap">menu</span>
+                    <div class="container">
+                        <div class="columns is-centered">
+                            <div class="lefttop logo column is-3">
+                                <img src="../assets/img/logo.png">
+                            </div>
+                            <div class="righttop column">
+                            </div>
+                        </div>
+                        <div class="columns is-centered">
+                            <div class="leftmid column is-3">
+                                <ul class="links">
+                                    <li><a href="../about/index.html">ABOUT</a></li>
+                                    <li><a href="../message/index.html">MESSAGE</a></li>
+                                    <li><a href="../biography/index.html">BIOGRAPHY</a></li>
+                                    <li><a href="../gallery/index.html">GALLERY</a></li>
+                                    <li><a href="../contact/index.html">CONTACT</a></li>
+                                </ul>
+                            </div>
+                            <div class="rightmid column is-9">
+                                <div class="columns contents">
+                                    <div class="grid" data-masonry='{"columnWidth": 150,"itemSelector": ".grid-item","transitionDuration": "1.5s"}'>
+                                        <div class="grid-item_sizer"></div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/500x500.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                        <div class="grid-item grid-item_w300">
+                                            <div class="grid-item_image"><img src="http://placehold.jp/300x300.png"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns infos">
+                            <div class="column sns is-2">
+                                <ul class="table-ul">
+                                    <li><a href="#"><i class="fab fa-2x fa-instagram blackiconcolor"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-2x fa-twitter blackiconcolor"></i></a></li>
+                                </ul>
+                                <div class="column is-9 ">
+                                </div>
+                            </div>
+                            <div class="column buf">
+                            </div>
+                        </div>
+                        <div class="columns copy is-mobile">
+                            <div class="column">
+                                <p>©2018 DANNAKAMURA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+    </div>
+</body>
+
+</html>

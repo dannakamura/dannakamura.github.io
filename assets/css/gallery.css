@@ -1,0 +1,65 @@
+.contents {
+    font-weight: 900;
+    width: 100%;
+}
+
+.contents h1 {
+    font-size: 1.2em;
+    padding-bottom: 4vh;
+}
+
+.contents h2 {
+    font-size: 1em;
+    padding-bottom: 2vh;
+}
+
+.contents p {
+    font-size: 0.8em;
+    line-height: 2.5em;
+}
+
+.contents span {
+    display: inline-block;
+    padding-bottom: 2vh;
+}
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    max-height: 80vh;
+}
+
+.grid-item {}
+
+.rightmid {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        position: fixed;
+        z-index: 999;
+    }
+    .contents {
+        padding-top: 10vh;
+    }
+    .contents p {
+        font-size: 0.6em;
+        line-height: 2em;
+    }
+    .gazou {
+        display: none
+    }
+    .grid {
+        max-height: 60vh;
+    }
+    .grid-item {
+        text-align: center;
+        width: 100%;
+    }
+    .rightmid {
+        padding-left: 0px;
+    }
+}
