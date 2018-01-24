@@ -412,6 +412,58 @@ p {
     animation-delay: 3000ms;
 }
 
+.component .typewriter>span>i:nth-of-type(31) {
+    -webkit-animation-delay: 3100ms;
+    animation-delay: 3100ms;
+}
+
+.component .typewriter>span>i:nth-of-type(32) {
+    -webkit-animation-delay: 3200ms;
+    animation-delay: 3200ms;
+}
+
+.component .typewriter>span>i:nth-of-type(33) {
+    -webkit-animation-delay: 3300ms;
+    animation-delay: 3300ms;
+}
+
+.component .typewriter>span>i:nth-of-type(34) {
+    -webkit-animation-delay: 3400ms;
+    animation-delay: 3400ms;
+}
+
+.component .typewriter>span>i:nth-of-type(35) {
+    -webkit-animation-delay: 3500ms;
+    animation-delay: 3500ms;
+}
+
+.component .typewriter>span>i:nth-of-type(36) {
+    -webkit-animation-delay: 3600ms;
+    animation-delay: 3600ms;
+}
+
+.component .typewriter>span>i:nth-of-type(37) {
+    -webkit-animation-delay: 3700ms;
+    animation-delay: 3700ms;
+}
+
+.component .typewriter>span>i:nth-of-type(38) {
+    -webkit-animation-delay: 3800ms;
+    animation-delay: 3800ms;
+}
+
+.component .typewriter>span>i:nth-of-type(39) {
+    -webkit-animation-delay: 3900ms;
+    animation-delay: 3900ms;
+}
+
+.component .typewriter>span>i:nth-of-type(40) {
+    -webkit-animation-delay: 4000ms;
+    animation-delay: 4000ms;
+}
+
+
+
 @-webkit-keyframes typewriter {
     50% {
         -webkit-transform: scale(1.4);
@@ -434,12 +486,12 @@ p {
 
 @-webkit-keyframes background {
     0% {
-        background: rgba(17, 17, 17, 0.1);
+        background: rgba(0, 0, 0, 0.1);
     }
 }
 
 @keyframes background {
     0% {
-        background: rgba(17, 17, 17, 0.1);
+        background: rgba(0, 0, 0, 0.1);
     }
 }
