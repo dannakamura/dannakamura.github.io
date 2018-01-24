@@ -34,7 +34,6 @@
         padding-bottom: 0;
     }
     .main {
-        background-image: url("../img/message.jpg");
         background-size: cover;
         background-position: 50%;
     }
@@ -66,7 +65,6 @@
         padding-right: 2.5vw;
     }
     .main {
-        background-image: url("../img/message.jpg");
         background-size: cover;
         background-position: 50%;
     }
