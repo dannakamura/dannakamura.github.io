@@ -3,7 +3,7 @@
     font-family: "Sawarabi Gothic";
 }
 
-.dan{
+.dan {
     text-align: center;
 }
 
@@ -25,21 +25,21 @@
 
 
 @media screen and (max-width: 1024px) {
+    .rightmid {
+        padding-left: 10vw;
+    }
+
     .rightmid .column {
         padding-top: 0;
-        padding-bottom:0;
+        padding-bottom: 0;
     }
     .main {
         background-image: url("../img/message.jpg");
         background-size: cover;
         background-position: 50%;
     }
-    .contents img {
-        width: 60%;
-    }
-    .gazou {
-        display: none
-    }
+    .contents img {}
+
     .contents h1 {
         font-size: 1.5em;
         padding-bottom: 4vh;
@@ -52,7 +52,7 @@
         padding-bottom: 2vh;
     }
     .contents p {
-        font-size: 1.2em;
+        font-size: 1em;
         padding-bottom: 1.5vh;
     }
     .bio {
@@ -69,6 +69,9 @@
         background-image: url("../img/message.jpg");
         background-size: cover;
         background-position: 50%;
+    }
+    .contents img {
+        width: 60%;
     }
     .contents p {
         font-size: 0.6em;

@@ -30,8 +30,7 @@
     max-height: 80vh;
 }
 
-.grid-item img {
-}
+.grid-item img {}
 
 .rightmid {
     padding-right: 0px;
@@ -41,7 +40,7 @@
 @media screen and (max-width: 1024px) {
     .rightmid .column {
         padding-top: 0;
-        padding-bottom:0;
+        padding-bottom: 0;
     }
     .main {
         background-image: url("../img/message.jpg");

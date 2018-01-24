@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../assets/css/biography.css">
     <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 </head>
 
 <body>
@@ -62,10 +63,13 @@
                             </div>
                             <div class="rightmid column is-12-tablet is-9-desktop">
                                 <div class="columns contents is-flex-desktop">
-                                    <div class="column is-half-tablet dan">
+                                    <div class="column dan buf">
                                         <img src="../assets/img/dannakamura.jpg">
                                     </div>
-                                    <div class="column is-half-tablet">
+                                    <div class="column is-6 dan is-hidden-desktop">
+                                        <img src="../assets/img/dannakamura.jpg">
+                                    </div>
+                                    <div class="column">
                                         <div class="columns is-centered">
                                             <div class="column is-3 buf">
                                             </div>
@@ -76,7 +80,7 @@
                                             </div>
                                         </div>
                                         <div class="columns">
-                                            <div class="column bio">
+                                            <div class="column bio component">
                                                 <p>
                                                     1995年佐賀県生まれ。
                                                 </p>
@@ -88,7 +92,7 @@
                                                 </p>
                                                 <p>
                                                     2016年には株式会社DAN NAKAMURAを設立し、自身初となるファッションショー、「sustainable clearness crocodile」を渋谷ヒカリエホールにて開催。</p>
-                                                <p>2017年、同コレクションがニューヨークのアートギャラリーにて展示開始される。
+                                                <p class="typewriter js-typewriter">2017年、同コレクションがニューヨークのアートギャラリーで展示開始される。
                                                 </p>
                                             </div>
                                         </div>
@@ -117,8 +121,9 @@
                 </div>
             </div>
         </div>
-        <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
     </div>
+    <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
 </body>
+<script src="../assets/js/main.js"></script>
 
 </html>
