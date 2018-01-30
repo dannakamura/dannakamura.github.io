@@ -184,6 +184,7 @@ p {
 
 .languages a {
     font-size: 0.5em;
+    font-style: italic;
 }
 
 .languages li {
@@ -193,6 +194,7 @@ p {
 
 .languagedrawer a {
     font-size: 0.5em;
+    font-style: italic;
 }
 
 .languagedrawer li {
