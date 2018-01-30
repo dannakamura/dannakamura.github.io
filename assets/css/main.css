@@ -109,8 +109,8 @@ p {
 
 
 .drawerlinks li {
-    padding-top: 10vh;
-    padding-bottom: 0vh;
+    padding-top: 7vh;
+    padding-bottom: 3vh;
 }
 
 .drawerlinks a {
@@ -182,6 +182,25 @@ p {
     bottom: 5vh;
 }
 
+.languages a {
+    font-size: 0.5em;
+}
+
+.languages li {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.languagedrawer a {
+    font-size: 0.5em;
+}
+
+.languagedrawer li {
+    padding-top: 1.2vh;
+    padding-bottom: 0;
+}
+
+
 @media screen and (max-width: 1024px) {
     .menucap {
         display: block;
@@ -228,6 +247,7 @@ p {
         width: 50%;
     }
 }
+
 
 
 /*animation typewriter*/
@@ -450,6 +470,30 @@ p {
     animation-delay: 4000ms;
 }
 
+.component .typewriter>span>i:nth-of-type(41) {
+    -webkit-animation-delay: 4100ms;
+    animation-delay: 4100ms;
+}
+
+.component .typewriter>span>i:nth-of-type(42) {
+    -webkit-animation-delay: 4200ms;
+    animation-delay: 4200ms;
+}
+
+.component .typewriter>span>i:nth-of-type(43) {
+    -webkit-animation-delay: 4300ms;
+    animation-delay: 4300ms;
+}
+
+.component .typewriter>span>i:nth-of-type(44) {
+    -webkit-animation-delay: 4400ms;
+    animation-delay: 4400ms;
+}
+
+.component .typewriter>span>i:nth-of-type(45) {
+    -webkit-animation-delay: 4500ms;
+    animation-delay: 4500ms;
+}
 
 
 @-webkit-keyframes typewriter {
